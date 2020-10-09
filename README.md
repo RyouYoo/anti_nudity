@@ -28,6 +28,7 @@ pipenv install --dev
 
 - Run it.
 
+NOTE: You can use the code for your own project.
 ## An important step:
 
 Don't forget to set this on your own Discord server:

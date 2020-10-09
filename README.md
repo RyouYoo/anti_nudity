@@ -32,4 +32,4 @@ pipenv install --dev
 
 Don't forget to set this on your own Discord server:
 
-![alt img](https://i.imgur.com/DdDHz0w.png](https://i.imgur.com/DdDHz0w.png)
+![alt img](https://i.imgur.com/DdDHz0w.png)

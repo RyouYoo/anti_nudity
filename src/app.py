@@ -3,13 +3,18 @@ import uuid
 import json
 import requests
 from requests_toolbelt import MultipartEncoder
+import os
 
 class CheckNudity():
     def __init__(self, _id, token):
         self.id = str(_id)
         self.token = token
         self.image_id = None
-
+        try:
+            os.mkdir("./images")
+        except Exception:
+            pass
+        
     def isItNudity(self):
         url = f"https://discord.com/api/v8/channels/{self.id}/messages"
         headers = {

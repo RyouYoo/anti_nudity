@@ -10,7 +10,7 @@ pip install pipenv
 
 ## **Install:**
 
-```python
+```
 git clone https://github.com/RyouYoo/anti_nudity.git
 cd anti_nudity/src
 pipenv shell
